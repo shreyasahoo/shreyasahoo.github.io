@@ -13,32 +13,61 @@
         <title> shreya sahoo </title>
     </head>
     
-    <header>
-        <nav>
-            <a href="index.html">HOME &nbsp &nbsp  </a>
-            <a href="about.html">ABOUT &nbsp &nbsp   </a>
-            <a href="projects.html">PROJECTS &nbsp &nbsp   </a>
-            <a href="design.html">DESIGN &nbsp &nbsp   </a>
-            <a href= "ShreyaResume.pdf">RESUME &nbsp &nbsp </a>
-        </nav>
-    </header>
+<nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="about.html">ABOUT  </a> </li>
+            <li> <a href="projects.html">PROJECTS </a> </li>
+            <li> <a href="design.html">DESIGN  </a> </li>
+            <li> <a href= "ShreyaSahooResume.pdf">RESUME </a> </li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <body>
-        <h3> about me </h3>
-        <div class = "me">
-        <img src="me.png" alt="me" /> </div>
-        <div class = "about" >
-        <p class = "hi"> Hi there! </p>
-        I'm Shreya, a freshman at UC Berkeley studying Computer Science. I enjoy developing, designing, and teaching. I am interested in the intersection of CS and education, specifically special education. I want to expand the technology available for students with special needs. 
-        <br> </br>
-        I am an academic intern for CS61A, the introductory CS class at Berkeley. I am also a member of the Association of Women in EECS (AWE). Last August, I was selected CS KickStart, a weeklong program hosted by AWE for freshmen women in CS. I am currently an organizer for CS KickStart 2017, as a member of the Industrial Relations Comittee.
-        <br> </br>
-        In my free time, I love to cook and do modern calligraphy!
-        </p>
+        <h3 class = "pagetitle"> about me </h3>
+        <div class = "container">
+            <div class = "row">
+                <div class = "col">
+                    <div class = "me">
+                        <img src="me.png" alt="me" /> </div>
+                </div>
+                <div class = "col">
+                    <div class = "about" >
+                        <p> Hi there! </p>
+                        I'm Shreya, a freshman at UC Berkeley studying Computer Science. I enjoy developing, designing, and teaching. I am interested in the intersection of CS and education, specifically special education. I want to expand the technology available for students with special needs. 
+                        <br> </br>
+                        Alongside being an academic intern for CS61A, the introductory CS class at Berkeley, I am also a junior mentor for Computer Science Mentors. As a junior mentor, I tutor a small group of 61A students for the semester. 
+                        <br> </br>
+                        I am also a member of the Association of Women in EECS (AWE). Last August, I was selected CS KickStart, a weeklong program hosted by AWE for freshmen women in CS. I am currently an organizer for CS KickStart 2017, as a member of the Industrial Relations Comittee.
+                        <br> </br>
+                        In my free time, I love to cook and do modern calligraphy!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 
-    <footer>
-        <p> Developed by Shreya Sahoo </p>
+    <footer class="page-row">
+        <div class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+              <p class="navbar-text pull-left">© 2017 - Shreya Sahoo.</p>
+            </div>
+        </div>
     </footer>
 </html>
