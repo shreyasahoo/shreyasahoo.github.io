@@ -234,8 +234,10 @@ div.navbar-default > div.container
     html{font-size: .9px;}
 }
 
-
-
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+}
 
 
 
