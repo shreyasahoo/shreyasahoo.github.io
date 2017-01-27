@@ -18,7 +18,6 @@ body {
     text-align: justify;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
-    margin: 0px 100px 10px 100px;
     font-weight: lighter;
     background-color: #84cdc2;
     color: white;
@@ -76,7 +75,7 @@ div.navbar-default > div.container
 
 /* INDEX */
 #mac {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
