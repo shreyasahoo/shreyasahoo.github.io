@@ -1,6 +1,6 @@
 html {
 	 color: black;
-    background-color: white;
+    background-color: #F3D9DB;
 
 }
 
@@ -20,7 +20,6 @@ body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     font-weight: lighter;
-    background-color: white;
     color: black;
     margin: 0px 100px 10px 100px;
 
@@ -35,7 +34,6 @@ body {
 
 /* NAVBAR STUFF AND FOOTER STUFF */
 .navbar-default {
-    background-color: #84cdc2;
     border: none !important;
     font-size: 30px;}
 
