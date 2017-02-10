@@ -17,6 +17,7 @@ div.container {
 
 body {
     text-align: justify;
+    background-color: #F3D9DB;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px;
     font-weight: lighter;
@@ -34,6 +35,7 @@ body {
 
 /* NAVBAR STUFF AND FOOTER STUFF */
 .navbar-default {
+    background-color: #F3D9DB;
     border: none !important;
     font-size: 30px;}
 
