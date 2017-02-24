@@ -108,8 +108,46 @@ div.navbar-default > div.container
 }
 
 .hi {
-    font-size: 30px;
+    font-size: 50px;
 }
+
+
+/*#vsco filter t1 from cssco*/
+.cssco {
+    position: relative;
+}
+
+.cssco:after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cssco img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+
+.cssco.cssco--a6 {
+    background-color: #a9a499;
+}
+
+.cssco.cssco--a6:after {
+    background-color: #eaeae9;
+    mix-blend-mode: multiply;
+}
+
+.cssco.cssco--a6 img {
+    -webkit-filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
+            filter: grayscale(30%) contrast(140%) hue-rotate(-5deg);
+    mix-blend-mode: hard-light;
+}
+
 
 /* PROJECT PAGE */
 
