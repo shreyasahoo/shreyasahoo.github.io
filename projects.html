@@ -6,14 +6,11 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans+Condensed:300" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="main1.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="js/modernizr.js"></script> <!-- Modernizr -->
-      <title> shreya sahoo </title>
-      <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title> shreya sahoo </title>
     </head>
 
 <nav class="navbar navbar-default">
@@ -45,103 +42,86 @@
 <!--THIS IS WHERE STUFF STARTS -->
 
 <!--THUMBNAIL GALLERY-->
-
-        <div class="container">
-
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class = "pagetitle"> projects </h3>
-            </div>
-
-            <!--FIRST ONE-->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="hovereffect">
-                    <img class="img-responsive" src="scheme.png" alt="">
-                        <div class="overlay">
-                            <h2>Scheme Interpreter</h2>
-                            <p> 
-                            <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#scheme">read more</a>
-                            </p> 
-                        </div>    
-                </div>
-
-                <!-- Modal -->
-                <div class="modal fade" id="scheme" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <p class="modal-title" id="exampleModalLongTitle"> SCHEME INTERPRETER </p>
-                        <p class = modaltext> November 2016, Cal Hacks </p>
-                      </div>
-                      <div class="modal-body">
-                        <p class = "modaltext"> This was my final project for CS 61A. My partner and I developed an interpreter in Python for a subset Scheme language that includes primitive expressions, user-defined functions, dynamic scoping, and supports tail recursion. </p>
-                        
-                        <img id = "scheme" src= "scheme.png">
-
-                        <h2 class = "modaltitle"> WHAT I LEARNED </h2>
-
-                        <p class = "modaltext"> I learned how to execute the read-eval-print loop and gained a better understanding of dynamic scoping / tail recursiom. </p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-            </div>
-
-            <!--second one-->
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="hovereffect">
-                    <img class="img-responsive" src="unite.png" alt="">
-                    <div class="overlay">
-                        <h2>Unite</h2>
+  <div class = "container">
+  <div class = "row">
+    <div class = "col-md-4">
+        <div class="hovereffect">
+            <img class="img-responsive" src="database.jpg" alt="">
+                <div class="overlay">
+                    <h2>Database</h2>
                         <p> 
-                            <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#unite">read more</a>
+                          <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#database">read more</a>
                         </p> 
-                    </div>
+                </div>    
+        </div>  
+
+        <div class="modal fade" id="database" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <p class="modal-title" id="exampleModalLongTitle"> DATABASE </p>
+                  <p class = modaltext> February 2017, CS 61B </p>
                 </div>
+              <div class="modal-body">
+                <p class = "modaltext"> I worked with a partner to create a database management system written in Java. We designed the implementation of a table and developed functions that allowed users to join multiple tables, and create tables that had conditions. </p>
+                        
+                <img class = "img-responsive" src= "database.jpg">
+
+                <h2 class = "modaltitle"> WHAT I LEARNED </h2>
+
+                <p class = "modaltext"> This project gave me experience in working with both a large group to brainstorm and develop high-level ideas as well as with a partner. I learned how to effectively use data abstraction as well as the basics of regex. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
             </div>
-                <div class="modal fade" id="unite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h5 class="modal-title" id="exampleModalLongTitle"> UNITE </h5>
-                        <p class = modaltext> November 2016, Cal Hacks </p>
-                      </div>
-                      <div class="modal-body">
-                          <h2 class = "modaltitle"> INSPIRATION </h2>
-                          <p class = "modaltext"> My team and I were inspired by the recent outbreak of protests throughout the nation. We saw the importance of staying safe while voicing opinions and decided to create a communication platform that allowed individuals to gain an immersive experience during protests, while staying safe. </p>
-                          <div class="container">
-                                <div class="row"> 
-                                  <div class= "col">
-                                  <img id = "unitesplash" src= "unitesplash.png" class="center-block">
-                                  </div>
-                                </div>
-                          </div>
-                          <p class = "modaltext"> Our iOS app allows individuals to find a protest near them, check in, and create a protest. For each protest, there is a safety bar that uses user-inputed data to calculate how safe the protest is. </p>
-                          <h2 class = "modaltitle"> CONTRIBUTIONS </h2>
-                          <p class = "modaltext"> After creating a mid-level prototype of the app using Figma, I focused on the backend. I utilised Swift to implement things like going from a address to latitude/longitude points, adding pins to a map, and adding data.
-                          <h2 class = "modaltitle"> WHAT I LEARNED </h2>
-                          <p class = "modaltext"> This was my first hackathon, and my first time using Swift. Learning the basics of Swift was definitely a challenging task, but I enjoyed working with my team members to implement new things. Because it was our first time making an app, we weren't able to fully perfect or implement all of our ideas, but I am happy with what we were able to accomplish!
-                      
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
+          </div>
+        </div>        
+    </div>     
+    
+    <div class = "col-md-4">
+        <div class="hovereffect">
+            <img class="img-responsive" src="bearmaps.jpg" alt="">
+                <div class="overlay">
+                    <h2>BEARMAPS</h2>
+                        <p> 
+                          <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#bearmaps">read more</a>
+                        </p> 
+                </div>    
+        </div>  
+
+        <div class="modal fade" id="bearmaps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <p class="modal-title" id="exampleModalLongTitle"> BEARMAPS </p>
+                  <p class = modaltext> April 2017, CS 61B </p>
                 </div>
-        </div>
-        </div>
+              <div class="modal-body">
+                <p class = "modaltext"> Using Java, I implemented the backend of a web mapping application that allows users to move around and zoom in to a map of Berkeley. Users can click two points on the map to find the shortest route between the points. I also added an autocomplete search feature.  </p>
+                        
+                <img class = "img-responsive" src= "bearmaps.jpg">
+
+                <h2 class = "modaltitle"> WHAT I LEARNED </h2>
+
+                <p class = "modaltext"> I used multiple data structures and graph algorithms in creating the end result. I also learned how to make my programs more time and space efficent. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+    </div>
+    <div class = "col-md-4"></div>
+
+  </div>
 
 
 
