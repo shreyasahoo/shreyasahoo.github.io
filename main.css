@@ -55,9 +55,8 @@ div.navbar-default > div.container
 #title {
 	text-align: center;
 	font-family: 'Lora', serif;
-    font-size: 72px;
-    color:  #f18c79 ;
-    margin: 50px 100px 0px 100px;
+  font-size: 72px;
+  color:  #f18c79 ;
 }
 
 #subtitle {
@@ -74,11 +73,11 @@ div.navbar-default > div.container
     font-size: 30px;
     font-weight: lighter;
     color:  black ;
-    margin: 50px 0px 0px 0px;
 
 }
 #email {
 	font-family: 'Cousine', monospace;
+  text-align: center;
 	font-size: 24px;
 	color: black;
 	background-color: rgba(241, 140, 121, 0.6)
@@ -88,7 +87,7 @@ div.navbar-default > div.container
     padding: 50px;
     font-size: 50px !important;
     width: 50px !important; 
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     border-radius: 50%;
     color: #CFCFCF;
@@ -99,18 +98,15 @@ div.navbar-default > div.container
 }
 
 
+
 /* ABOUT PAGE */
 
 #aboutheader {
 	font-size: 30px;
 }
 
-.addingpadding1 {
-	  margin: 0px 0px 0px 200px;
-}
-
-.addingpadding2 {
-	  margin: 0px 200px 0px 0px;
+#me {
+	  padding: 0px 100px 100px 0px;
 }
 
 a {
