@@ -67,27 +67,31 @@ div.navbar-default > div.container
     color:  black ;
 }
 
-#emailheader {
+.emailheader {
 	text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
-    color:  black ;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color:  black ;
 
 }
 #email {
+  width: 100%;
 	font-family: 'Cousine', monospace;
-  text-align: center;
 	font-size: 24px;
 	color: black;
-	background-color: rgba(241, 140, 121, 0.6)
+	background-color: rgba(241, 140, 121, 0.6);
+  text-align: center !important;
+
 }
 
 .fa {
-    padding: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 50px !important;
     width: 50px !important; 
-    text-align: center;
     text-decoration: none;
     border-radius: 50%;
     color: #CFCFCF;
@@ -95,6 +99,10 @@ div.navbar-default > div.container
 
 .fa:hover {
 	color: #f18c79;
+}
+
+.icons {
+  text-align: center !important;
 }
 
 
@@ -106,7 +114,18 @@ div.navbar-default > div.container
 }
 
 #me {
-	  padding: 0px 100px 100px 0px;
+  width: 70%;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.info {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 a {
@@ -120,8 +139,6 @@ a:hover {
     background-color: transparent;
     text-decoration:none;
 }
-
-
 
 .container {
   position: relative;
