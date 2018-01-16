@@ -292,6 +292,28 @@ a:hover {
   	color: white !important;
   	border-radius: 25%;
 }
+.wrap {
+  margin: 0 auto;
+  text-align: center;
+}
+.wrap a {
+    font-family: 'Tinos', serif;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.25;
+  display: inline;
+  color: steelblue;
+  text-shadow: 0 1px darken(steelblue, 10%);
+  transition: box-shadow ease 250ms, color ease 250ms;
+  cursor: pointer;
+  
+  text-decoration: none;
+
+  
+  &:hover {
+    box-shadow: 0 -25px 0 coral inset;
+  }
+}
 
 
 
