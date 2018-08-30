@@ -1,8 +1,8 @@
 body {
 	padding-top: 54px;
   	text-align: center;
-  	font-family: 'Open Sans Condensed', sans-serif;
-  	font-size: 20px;
+    font-family: 'Karla', sans-serif;
+  	font-size: 16px;
   	font-weight: lighter;
   	color:  #000000;
   	margin-bottom: 80px;
@@ -59,7 +59,7 @@ div.navbar-default > div.container
 /* INDEX PAGE */
 #title {
 	text-align: center;
-	font-family: 'Lora', serif;
+    font-weight: bold;
   	font-size: 60px;
   	color:  #f18c79 ;
 }
@@ -110,10 +110,7 @@ div.navbar-default > div.container
   text-align: center !important;
 }
 
-
-
 /* ABOUT PAGE */
-
 #aboutheader {
 	font-size: 30px;
 }
@@ -130,7 +127,6 @@ div.navbar-default > div.container
   min-width: 10em;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 a {
@@ -179,8 +175,6 @@ a:hover {
 #modalbearmaps {
 	padding: 10px;
 }
-
-
 
 /* THUMBNAIL GALLERY -- used template on bootply */
 .thumb {
@@ -314,14 +308,9 @@ a:hover {
     box-shadow: 0 -25px 0 coral inset;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
+.card {
+  border:none;
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

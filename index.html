@@ -16,6 +16,7 @@
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400i|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link href="css/scrolling-nav.css" rel="stylesheet">
 
 </head>
@@ -30,16 +31,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">ABOUT</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#work">WORK</a>
+                    <a class="nav-link" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">PROJECTS</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ShreyaSahooResume.pdf">RESUME</a>
+                    <a class="nav-link" href="ShreyaSahoo_Resume.pdf">Resume</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="CS61A.html">CS 61A</a>
@@ -51,28 +52,30 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class = "col-lg-6 mx-auto">
-                    <img src = "img/shreya.jpg" id = "me">  
-                </div>
-                <div class="col-lg-6 mx-auto">
-                    <h1 id = "title"> shreya sahoo </h1> 
-                    <div class = "wrap">   
+              <div class="col"></div>
+              <div class="col">
+              <h1 id = "title" style="text-align:center">Shreya Sahoo</h1>
+              </div>
+            </div>
+            <div class="row">
+                <div class = "col"> <img src = "img/shreyasahoo.png" id = "me" style="max-width:90%">  </div>
+                <div class="col"> 
+                     
                     <p class = "subtitle"> 
-                    Hi, I'm Shreya! I am sophomore at UC Berkeley studying Computer Science. I am interested in the intersection of technology and education, especially special education. Currently, I am a teaching assistant for CS 61A, the structure and interpretation of programs. This summer, I will be an Engineering Practicum Intern at <span id = "google"> Google </span>. 
+                    Hi, I'm Shreya! I am a junior at UC Berkeley studying Computer Science. I am interested in the intersection of technology and education, especially special education. Currently, I am a teaching assistant for CS 61A, the structure and interpretation of programs. This summer, I was an Engineering Practicum Intern at Google. 
                     <br> 
                     <br>
-                    When I'm not too busy, I love practicing brush calligraphy and trying out new recipes.</p> </div>
+                    When I'm not too busy, I love practicing brush calligraphy and trying out new recipes.</p> 
 
-                    <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> </div>
-                    <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> 
+                    <div class="col"> </div>
+                    <div class="col"> 
                         <div class = "icons">
                             <a href="https://github.com/shreyasahoo" class="fa fa-github"></a>
                             <a href="https://www.linkedin.com/in/shreya-sahoo/" class="fa fa-linkedin"></a>
-                            <a href="https://www.pinterest.com/shreyayaa/" class="fa fa-pinterest"></a>
                         </div>
-                        <div class="col-md-4 col-lg-12 col-sm-12 col-xs-12"> </div>               
+                        <div class="col"> </div>               
                         <div class="text-center">
-                            <h2> email: 
+                            <h2>Email: 
                             <span id = "email"> shreyasahoo@berkeley.edu </span> 
                             </h2>
                         </div>                       
@@ -84,20 +87,55 @@
 
     <section id="work">
     <div class = "container">
-        <h2>WORK</h2>
+        <h2>Work</h2>
         <div class = "row">
-            <div class= "col-lg-4 mx-auto"></div>
-            <div class = "col-lg-4 max-auto">
-              <div class="hovereffect">
-                    <img class= "img-fluid" src= "img/cs61a.png">
-                      <div class="overlay">
-                          <h2>CS 61A</h2>
-                              <p> 
-                                <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#cs61a">read more</a>
-                              </p> 
-                      </div>    
-              </div>  
+            <div class= "col">
+            </div>
+            <div class = "col">
+              <div class = "card">
+              <div class = "card-body">
+              <img class= "img-fluid" src= "img/google.png" href="#0" class="btn btn-primary" data-toggle="modal" data-target="#google" style="max-width:75%">
+              <div class="modal fade" id="google" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        <p class="modal-title" id="exampleModalLongTitle"> CS 61A </p>
+                      </div>
+                    <div class="modal-body">
+                      <h2 class = "modaltitle" id = "jobTitle">Engineering Practicum Intern</h2>
+                      <h2 class = "modaltitle" id = "date"> May 2018 - August 2018 </h2>
 
+                      <p class = "modaltext"> 
+                      I enjoyed working at Google this summer on the Maps team in Mountain View this summer!
+                      <br>
+                      <br> 
+                      I designed and developed new features for an internal web application that performs checks on bulk changes made to Google Maps data. The tool is used by 40 teams to process billions of changes annually! 
+                      <br>
+                      <br>
+                      I created a personalized and interactive user workflow by building a landing page for users to easily monitor the status of their bulk changes. 
+                      <br>
+                      <br>
+                      I did full-stack development using TypeScript with the Angular Framework and Java. 
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <h5 class="card-title">Google</h5>
+            <p class="card-text">Engineering Practicum Intern</h5>
+            </div>
+          </div>  
+            <div class = "col">
+            <div class = "card">
+              <div class = "card-body">
+              <img class= "img-fluid" src= "img/lambda.png" href="#0" class="btn btn-primary" data-toggle="modal" data-target="#cs61a" style="max-width:75%">
               <div class="modal fade" id="cs61a" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                    <div class="modal-content">
@@ -109,8 +147,6 @@
                       </div>
                     <div class="modal-body">
                       <p class = "modaltext"> I really enjoyed taking CS 61A the first semester of my freshman year; I wanted to stay involved with the course by helping teach! The semester after I took the course, I was a lab assistant -- this is what I have been doing since: </p>
-                              
-                      <img class= "img-fluid" src= "img/cs61a.png" id = "modal61a">
 
                       <h2 class = "modaltitle" id = "jobTitle"> Undergraduate Student Instructor</h2>
                       <h2 class = "modaltitle" id = "date"> August 2017 - Present </h2>
@@ -118,13 +154,13 @@
                       <p class = "modaltext"> As a TA for CS 61A, I teach weekly lab and discussion sections to students. In addition, I lead 2 hours of office hours every week and assist students with understanding key concepts, and give guidance on homework assignments and projects.
                       </p>
 
-                      <h2 class = "modaltitle" id = "jobTitle"> Computer Science Mentors Senior Mentor (Previous Junior Mentor) </h2>
-                      <h2 class = "modaltitle" id = "date"> January 2017 - Present </h2>
+                      <h2 class = "modaltitle" id = "jobTitle"> Computer Science Mentors Senior Mentor </h2>
+                      <h2 class = "modaltitle" id = "date"> August 2017 - Present </h2>
 
                       <p class = "modaltext"> I mentor and teach concepts from the course in a small group setting. In addition to teaching a group section, I mentor several Junior Mentors and go over how to teach each week's material and give teaching tips. 
                       </p>
                       <h2 class = "modaltitle" id = "jobTitle"> Tutor </h2>
-                      <h2 class = "modaltitle" id = "date"> June 2017 - Present </h2>
+                      <h2 class = "modaltitle" id = "date"> June 2017 - August 2017 </h2>
 
                       <p class = "modaltext"> I mentored 3 small group sections and tutored students one-on-one. I also mentored students during pre and post midterm advising and helped plan a review session. In addition, I graded projects, and proctored and graded exams. 
                       </p>
@@ -134,64 +170,58 @@
                     </div>
                   </div>
                 </div>
-              </div>        
-          </div>     
-          <div class="col-lg-4 mx-auto"></div>
+                </div>
+                <h5 class="card-title"><br>UC Berkeley</h5>
+                <p class="card-text">CS 61A Undergraduate Student Instructor</h5>
+              </div> 
+              </div>       
+          </div>       
+          <div class="col"></div>
     </section>
 
     <section id= "projects">
     <div class = "container">
-        <h2>PROJECTS</h2>
+        <h2>Projects</h2>
         <div class = "row">
-          <div class = "col-lg-4 mx-auto" >
-              <div class="hovereffect">
-                  <img class="img-fluid" src="img/database.jpg" alt=""> 
-                      <div class="overlay">
-                          <h2>DATABASE</h2>
-                              <p> 
-                                <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#database">read more</a>
-                              </p> 
-                      </div>    
-              </div>  
+          <div class="col"></div>
+          <div class = "col" >
+            <div class = "card">
+            <div class = "card-body">
+            <img class= "img-fluid" src= "img/database.jpg" href="#0" class="btn btn-primary" data-toggle="modal" data-target="#database">
+                <div class="modal fade" id="database" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          <p class="modal-title" id="exampleModalLongTitle">Database</p>
+                          <p class = modaltext> February 2017 </p>
+                        </div>
+                      <div class="modal-body">
+                        <p class = "modaltext"> I worked with a partner to create a database management system written in Java. We designed the implementation of a table and developed functions that allowed users to join multiple tables, and create tables that had conditions. </p>
+                                
+                        <img class="img-fluid" src="img/database.jpg">
 
-              <div class="modal fade" id="database" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                   <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        <p class="modal-title" id="exampleModalLongTitle"> DATABASE </p>
-                        <p class = modaltext> February 2017, CS 61B </p>
+                        <h2 class = "modaltitle">What I learned</h2>
+
+                        <p class = "modaltext"> This project gave me experience in working with both a large group to brainstorm and develop high-level ideas as well as with a partner. I learned how to effectively use data abstraction as well as the basics of regex. </p>
                       </div>
-                    <div class="modal-body">
-                      <p class = "modaltext"> I worked with a partner to create a database management system written in Java. We designed the implementation of a table and developed functions that allowed users to join multiple tables, and create tables that had conditions. </p>
-                              
-                      <img class="img-fluid" src="img/database.jpg">
-
-                      <h2 class = "modaltitle"> WHAT I LEARNED </h2>
-
-                      <p class = "modaltext"> This project gave me experience in working with both a large group to brainstorm and develop high-level ideas as well as with a partner. I learned how to effectively use data abstraction as well as the basics of regex. </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>        
+                </div> 
+                <h5 class="card-title"><br>Database</h5>
+              </div>
+            </div>       
           </div>     
           
-          <div class = "col-lg-4 mx-auto">
-              <div class="hovereffect">
-                  <img class="img-fluid" src="img/bearmaps.jpg" alt="">
-                      <div class="overlay">
-                          <h2>BEARMAPS</h2>
-                              <p> 
-                                <a href="#0" class="btn btn-primary" data-toggle="modal" data-target="#bearmaps">read more</a>
-                              </p> 
-                      </div>    
-              </div>  
-
+          <div class = "col" >
+            <div class = "card">
+            <div class = "card-body">
+            <img class= "img-fluid" src= "img/bearmaps.jpg" href="#0" class="btn btn-primary" data-toggle="modal" data-target="#bearmaps">
               <div class="modal fade" id="bearmaps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                    <div class="modal-content">
@@ -199,8 +229,8 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
-                        <p class="modal-title" id="exampleModalLongTitle"> BEARMAPS </p>
-                        <p class = modaltext> April 2017, CS 61B </p>
+                        <p class="modal-title" id="exampleModalLongTitle"> Bear Maps </p>
+                        <p class = modaltext> April 2017 </p>
                       </div>
                     <div class="modal-body">
                       <p class = "modaltext"> Using Java, I implemented the backend of a web mapping application that allows users to move around and zoom in to a map of Berkeley. Users can click two points on the map to find the shortest route between the points. I also added an autocomplete search feature.  
@@ -208,7 +238,7 @@
 
                       <img class="img-fluid" src="img/bearmaps.jpg" alt="" id = "modalbearmaps">
 
-                      <h2 class = "modaltitle"> WHAT I LEARNED </h2>
+                      <h2 class = "modaltitle"> What I learned </h2>
 
                       <p class = "modaltext"> I used multiple data structures and graph algorithms in creating the end result. I also learned how to make my programs more time and space efficent. </p>
                     </div>
@@ -218,12 +248,11 @@
                   </div>
                 </div>
               </div> 
+              <h5 class="card-title"><br>Bear Maps</h5>
+              </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"></div>
-        </div>
-
-
-      </div>
+          </div>
+          <div class="col"></div>
         </section>
 
     <!-- Bootstrap core JavaScript -->
