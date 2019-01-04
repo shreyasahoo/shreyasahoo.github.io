@@ -20,70 +20,18 @@ section {
 
 /* NAVBAR STUFF AND FOOTER STUFF */
 .navbar {
-    background-color: white;
+    background-color: white !important;
     border: none !important;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-ul.nav  a:active {
-    color: black !important;
-    background-color: transparent;
-    text-decoration:none; }
-
-ul.nav a:link {
-    color: black !important;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-ul.nav a:visited {
-    color:black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-ul.nav a:hover {
-    color: #f18c79 !important;
-    background-color: transparent;
-    text-decoration:none;
-}
-
-div.navbar-default > div.container 
-{background-color: white;}
 
 /* INDEX PAGE */
-#title {
-	text-align: center;
-    font-weight: bold;
-  	font-size: 60px;
-  	color:  #f18c79 ;
-}
-
-#subtitle {
-	text-align: left;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
-    font-weight: lighter;
-    color:  black ;
-}
-
-.emailheader {
-	text-align: center;
-  	font-family: 'Open Sans Condensed', sans-serif;
-  	font-size: 30px;
-  	font-weight: lighter;
-  	color:  black ;
-
-}
 #email {
   width: 100%;
 	font-family: 'Cousine', monospace;
-	font-size: 24px;
+	font-size: 16px;
 	color: black;
 	background-color: rgba(241, 140, 121, 0.6);
   text-align: center !important;
@@ -104,29 +52,11 @@ div.navbar-default > div.container
 
 .fa:hover {
 	color: #f18c79;
+  text-decoration: none; 
 }
 
 .icons {
   text-align: center !important;
-}
-
-/* ABOUT PAGE */
-#aboutheader {
-	font-size: 30px;
-}
-
-#me {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.info {
-  width: 50%;
-  min-width: 10em;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
@@ -136,9 +66,9 @@ a {
 }
 
 a:hover {
-    color: #f18c79 !important;
-    background-color: transparent;
-    text-decoration:none;
+  color:#f18c79;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 .container {
@@ -161,124 +91,6 @@ a:hover {
 	font-size: 25px;
 }
 
-#date {
-	color : black !important;
-	font-size: 20px;
-}
-
-#modal61a {
-	width: 50%;
-	height: 50%;
-	padding: 10px;
-}
-
-#modalbearmaps {
-	padding: 10px;
-}
-
-/* THUMBNAIL GALLERY -- used template on bootply */
-.thumb {
-    margin-bottom: 30px;
-}
-
-.hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
-}
-
-.hovereffect .overlay {
-  position: absolute;
-  overflow: hidden;
-  width: 80%;
-  height: 80%;
-  left: 10%;
-  top: 10%;
-  border-bottom: 1px solid #FFF;
-  border-top: 1px solid #FFF;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(0,1);
-  -ms-transform: scale(0,1);
-  transform: scale(0,1);
-}
-
-.hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
-}
-
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(0.6);
-  -webkit-filter: brightness(0.6);
-}
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  background-color: transparent;
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,-100%,0);
-  transform: translate3d(0,-100%,0);
-}
-
-.hovereffect a, hovereffect p {
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0,100%,0);
-  transform: translate3d(0,100%,0);
-}
-
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
-}
-
-
-/* MODAL */
-.modal-title {
-  color: #f18c79 ;
-  font-size: 30px;
-}
-
-.modaltext {
-    color: black !important;
-    font-size: 18px;
-}
-
-.modaltitle {
-  color: #f18c79 !important;
-}
-
-
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #f18c79 !important;
@@ -286,31 +98,35 @@ a:hover {
   	color: white !important;
   	border-radius: 25%;
 }
-.wrap {
-  margin: 0 auto;
-  text-align: center;
-}
-.wrap a {
-    font-family: 'Tinos', serif;
-  font-size: 5rem;
-  text-align: center;
-  line-height: 1.25;
-  display: inline;
-  color: steelblue;
-  text-shadow: 0 1px darken(steelblue, 10%);
-  transition: box-shadow ease 250ms, color ease 250ms;
-  cursor: pointer;
-  
-  text-decoration: none;
 
-  
-  &:hover {
-    box-shadow: 0 -25px 0 coral inset;
-  }
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.card {
-  border:none;
+
+.navlink a:link {
+    color: #999999; !important;
+    background-color: transparent;
+    text-decoration: none;
 }
-.card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+.navbar .navbar-nav > .active > a{
+    color: #545454; !important;
 }
+
+#hvr {
+  opacity: 1;
+  transition: .5s ease;
+}
+#cnt:hover .img-fluid {
+  opacity: .3;
+}
+
+
+
+
+
+
+
+
